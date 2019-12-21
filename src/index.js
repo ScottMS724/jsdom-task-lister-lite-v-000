@@ -13,3 +13,4 @@ function handleClick(e) {
 button.addEventListener("click", function(e) {
   e.preventDefault();
   handleClick(e);
+});
