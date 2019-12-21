@@ -10,6 +10,6 @@ function handleClick(e) {
   }
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-  // your code here
-});
+button.addEventListener("click", function(e) {
+  e.preventDefault();
+  handleClick(e);
