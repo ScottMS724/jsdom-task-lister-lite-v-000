@@ -1,4 +1,4 @@
-const button = document.querySelectorAll("input[type=submit]")[0];
+const taskSubmit = document.querySelectorAll("input[type=submit]")[0];
 
 function handleClick(e) {
   let toDoItem = document.querySelectorAll("input[type=text]")[0].value;
@@ -10,7 +10,7 @@ function handleClick(e) {
   }
 }
 
-button.addEventListener("click", function(e) {
+taskSubmit.addEventListener("click", function(e) {
   e.preventDefault();
   handleClick(e);
 });
